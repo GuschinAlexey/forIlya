@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (max-width: 1100px) { 
+    
+.fon {
+    height: 700px;
+}
+
+main {
+    width: 100%;
+}
+}
+
+@media (max-width: 688px) { 
+    
+    .fon {
+        height: 1500px;
+    }
+
+    .flex {
+        display: block;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, 'Times New Roman', Times, serif;
+}
+
+header > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.header_div {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    align-items: center;
+    gap: 15%;
+    margin-top: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 25px;
+    
+}
+
+.nav_link {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+
+.nav_link:hover {
+    color: rgb(109, 109, 109);
+}
+
+.logo {
+    text-align: right;
+}
+
+.logo_one {
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.logo_two {
+    color: rgb(51, 51, 51);
+    font-style: italic;
+    font-size: 25px;
+}
+
+.o_nas {
+    margin-top: 30px;
+    background-color: rgb(248, 248, 248);
+    z-index: 2;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, .o_nas_h1 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.o_nas_p {
+    color: rgb(51, 51, 51);
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.cell {
+    width: 300px;
+    height: 130px;
+    margin: 0 auto; 
+}
+
+.about_h {
+    color: rgb(51, 51, 51)
+}
+
+.about {
+    background-color:rgb(212, 212, 212);
+    margin-top: -20px;
+    padding-bottom: 40px;
+}
+
+
+.cell_img {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.cell_year {
+    width: 300px;
+}
+
+.sub_title {
+    color: red;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.year {
+    color: red;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.line {
+    height: 1px;
+    width: 300px;
+    background-color: grey;
+    margin-top: 3px;
+}
+
+.cell_subtitle_opis {
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    margin-top: 10px;
+}
+  
+ul li:before {
+    content: '✓';
+    color: red;
+}
+
+.bor { 
+    height: 750px;
+    background-color: aliceblue;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 5px solid rgb(212, 212, 212);
+}
+
+.counter {
+    height: 100px;
+    background-color:rgb(80, 80, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter_h2 {
+    color: white;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.red_two {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.prezident_span {
+    font-size: 23px;
+    color:rgb(78, 78, 78);
+}
+
+.prezident_title {
+    margin-top: 50px;
+}
+
+.text_title {
+    font-size: 20px;
+}
