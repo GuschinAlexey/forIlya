@@ -201,7 +201,7 @@ ul li:before {
 }
 
 .prezident_title {
-    margin-top: 50px;
+    padding-top: 50px;
     color:rgb(78, 78, 78);
 }
 
@@ -218,11 +218,67 @@ ul li:before {
 .counter_two {
     text-align: center;
     background-color: none;
-    margin-top: 60px;
 }
 
 .counter_h2_two {
     font-size: 1.25rem;
     padding: 60px;
     background-color: rgb(46, 46, 46); 
+}
+
+.prem_title {
+    color: red;
+    font-size: 2.6rem;
+    margin-top: 30px;
+}
+
+.prem_block {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.562);
+}
+
+.prezident {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 60px;
+}
+
+.our_prem {
+    background-color:rgb(226, 226, 226);
+    padding-bottom: 70px;
+}
+
+.border-right-grey {
+    border-right: 1px solid grey;
+    padding-right: 70px;
+}
+
+.border-right-grey:nth-child(1) {
+    border-left: 1px solid grey;
+}
+
+.line_about {
+    width: 280px;
+    padding-right: 20px;
+}
+
+.counter_h2_three {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.geog {
+    margin-top: -20px;
+    background-color:rgb(245, 245, 245)
+}
+
+.contacts {
+    font-size: 18px;
+}
+
+.counter_h2_four {
+    font-size: 18px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
