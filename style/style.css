@@ -170,7 +170,7 @@ ul li:before {
 
 .bor { 
     height: 750px;
-    background-color: aliceblue;
+    background-color: rgb(254, 254, 254);
     margin-top: 15px;
     border-radius: 10px;
     border: 5px solid rgb(212, 212, 212);
@@ -202,8 +202,27 @@ ul li:before {
 
 .prezident_title {
     margin-top: 50px;
+    color:rgb(78, 78, 78);
 }
 
 .text_title {
     font-size: 20px;
+}
+
+.text_dirik {
+    text-align: justify;
+    font-size: 1.14rem;
+    color:rgb(46, 46, 46);
+}
+
+.counter_two {
+    text-align: center;
+    background-color: none;
+    margin-top: 60px;
+}
+
+.counter_h2_two {
+    font-size: 1.25rem;
+    padding: 60px;
+    background-color: rgb(46, 46, 46); 
 }
