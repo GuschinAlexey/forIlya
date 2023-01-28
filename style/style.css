@@ -30,7 +30,7 @@ main {
 }
 
 body {
-    font-family: Roboto, Arial, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 header > img {
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, .o_nas_h1 {
 .sub_title {
     color: red;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .year {
@@ -211,7 +211,7 @@ ul li:before {
 
 .text_dirik {
     text-align: justify;
-    font-size: 1.14rem;
+    font-size: 1.25rem;
     color:rgb(46, 46, 46);
 }
 
@@ -226,10 +226,14 @@ ul li:before {
     background-color: rgb(46, 46, 46); 
 }
 
+.prem {
+    padding-top: 50px;
+}
+
 .prem_title {
     color: red;
     font-size: 2.6rem;
-    margin-top: 30px;
+    padding-top: 70px;
 }
 
 .prem_block {
@@ -266,11 +270,13 @@ ul li:before {
 .counter_h2_three {
     width: 100%;
     margin-top: 90px;
+    font-size: 1.35rem;
 }
 
-.geog {
+.geog, .our_towars {
     margin-top: -20px;
-    background-color:rgb(245, 245, 245)
+    background-color:rgb(245, 245, 245);
+    padding-bottom: 150px;
 }
 
 .contacts {
@@ -282,3 +288,156 @@ ul li:before {
     margin-top: -20px;
     margin-bottom: -20px;
 }
+
+.counter_three {
+    margin-top: -100px;
+}
+
+.cell_towars_categories {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 12px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.336);
+}
+
+.cell_towars_categories:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.cell_towars_categories > img {
+    height: 300px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.our_towars {
+    padding-bottom: 60px;
+}
+
+.cell_towars_categories_name {
+    font-size: 25px;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.in_cart  {
+    background-color: rgb(255, 2, 2);
+    color: white;
+    border: none;
+    width: 230px;
+    border-radius: 15px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.in_cart:hover {
+    background-color: rgb(179, 1, 1);
+}
+
+.cell_towars_categories_two {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 12px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.336);
+}
+
+.oform {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(255, 2, 2);
+    color: white;
+    font-size: 1.35rem;
+}
+
+.oform:hover {
+    background-color:rgb(179, 1, 1);
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Адаптивный макет - когда экран меньше 800 пикселей в ширину, сделайте два столбца стеком друг на друга, а не рядом друг с другом (и измените направление-сделайте столбец "корзина" сверху) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
